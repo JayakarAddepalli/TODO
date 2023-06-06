@@ -1,0 +1,1019 @@
+body{
+    background-color: rgb(17, 17, 18);
+    color: white;
+}
+
+@media only screen and (min-width:1440px)
+{
+    .container{
+        background-image: url("bg-desktop-dark.jpg");
+        background-repeat: no-repeat;
+        background-size: 100vw 45vh;
+        max-width: 100%;
+        margin: 0px;
+        padding-top: 0px;
+    }
+    
+    .C1{
+        
+        background-color: rgba(49, 60, 71, 0);
+        width: 600px;
+        height: 600px;
+        padding-top: 50px;
+        letter-spacing: 10px;
+        padding-left: 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        margin-left: 400px;
+        animation-name: containerelem;
+        animation-duration: 2s;
+    }
+
+    @keyframes containerelem {
+        from{
+            transform: translateX(-400px);
+            opacity: 0;
+        }
+
+        to{
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+
+    img{
+        margin-top: 13px;
+        margin-left: 430px;
+    }
+    
+  
+
+    .C2{
+        background-color: rgb(54, 54, 54);
+        border-style: none;
+        border-radius: 5px;
+        border-color: transparent;
+        box-shadow: 1px 1px 20px 1px black;
+        margin-bottom: 120px;
+        
+    }
+
+   
+
+    .C2 button{
+        width : 25px;
+        height: 25px;
+        background-color: rgb(54, 54, 54, 0);
+        border-style: groove;
+        border-radius: 25px;
+        border-color: rgb(70, 70, 70);
+        margin-top: 15px;
+        margin-left: 10px;
+        outline: none;
+    }
+    
+    .btn:hover{
+        background-color: transparent;
+    }
+    
+    .inputtag1{
+        background-color: rgba(255, 255, 255, 0);
+        border-style: none;
+        border-radius: 5px;
+        border-color: transparent;
+        font-size: 20px;
+        width: 500px;
+        height: 55px;
+        margin-left: 20px;
+        outline: none;
+        color: rgb(107, 107, 107);
+    }
+    
+    .Total{
+        background-color: rgb(54, 54, 54);
+        width: 590px;
+        height: 55px;
+        border-style: none;
+        border-radius: 5px;
+        border-color: rgba(173, 216, 230, 0);
+        font-size: 20px;
+        letter-spacing: 0px;
+        font-weight: 100px;
+        box-shadow: 1px 1px 25px 1px black;
+    }
+
+    
+
+    .tasks{
+        background-color: rgb(54, 54, 54);
+        width: 590px;
+        height: 55px;
+        padding-top: 5px;
+        border-style:groove;
+        border-radius: 5px;
+        border-right-color:transparent;
+        border-left-color:transparent;
+        border-top-color:transparent;
+        border-bottom-color: aqua;
+        box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.125);
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+    }
+    
+    .value{
+        margin-left: 20px;
+        margin-top: 14px;
+        color: grey;
+    }
+
+    .itemsleft{
+        margin-left: 5px;
+        margin-top: 14px;
+        color: grey;
+    }
+    
+    .ALLelem{
+        margin-left: 20px;
+        margin-top: 14px;
+        font-size: 20px;
+        padding: 0px;
+        color: grey;
+    }
+
+    .Actelem{
+        margin-left: 5px;
+        margin-top: 14px;
+        font-size: 20px;
+        padding: 0px;
+        color: grey;
+    }
+
+    .Comelem{
+        margin-left: 5px;
+        margin-top: 14px;
+        font-size: 20px;
+        padding: 0px;
+        color: grey;
+    }
+
+    .Clearelem{
+        margin-left: 20px;
+        margin-top: 14px;
+        font-size: 20px;
+        padding: 0px;
+        color: grey;
+    }
+
+    
+    .para{
+        max-width:390px;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1439px){
+    .container{
+        background-image: url("bg-desktop-dark.jpg");
+        background-repeat: no-repeat;
+        background-size: 100vw 40vh;
+        max-width: 100%;
+        margin: 0px;
+        padding-top: 0px;
+
+        
+        
+    }
+    
+    .C1{
+        background-color: rgba(49, 60, 71, 0);
+        width: 500px;
+        height: 600px;
+        padding-top: 50px;
+        letter-spacing: 10px;
+        padding-left: 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        margin-left: 250px;
+        animation-name: containerelem;
+        animation-duration: 2s;
+    }
+
+    @keyframes containerelem {
+        from{
+            transform: translateX(-400px);
+            opacity: 0;
+        }
+
+        to{
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+
+    img{
+        margin-top: 13px;
+        margin-left: 360px;
+       
+    }
+
+   
+    .C2{
+        background-color: rgb(54, 54, 54);
+        border-style: none;
+        border-radius: 5px;
+        border-color: transparent;
+        box-shadow: 1px 1px 20px 1px black;
+        margin-bottom: 70px;
+       
+    }
+
+
+    .C2 button{
+        width : 25px;
+        height: 25px;
+        background-color: rgb(54, 54, 54, 0);
+        border-style: groove;
+        border-radius: 25px;
+        border-color: rgb(70, 70, 70);
+        margin-top: 13px;
+        margin-left: 10px;
+        outline: none;
+    }
+   
+    .btn:hover{
+        background-color: transparent;
+    }
+    
+    
+    .inputtag1{
+        background-color: rgba(255, 255, 255, 0);
+        border-style: none;
+        border-radius: 5px;
+        border-color: transparent;
+        font-size: 20px;
+        width: 500px;
+        height: 50px;
+        margin-left: 20px;
+        outline: none;
+        color: rgb(107, 107, 107);
+    }
+    
+    .Total{
+        background-color: rgb(54, 54, 54);
+        width: 490px;
+        height: 50px;
+        border-style: none;
+        border-radius: 5px;
+        border-color: rgba(173, 216, 230, 0);
+        font-size: 15px;
+        letter-spacing: 0px;
+        font-weight: 100px;
+        box-shadow: 1px 1px 25px 1px black;
+        
+    }
+   
+
+    .tasks{
+        background-color: rgb(54, 54, 54);
+        width: 490px;
+        height: 50px;
+        border-style:groove;
+        border-radius: 5px;
+        border-right-color:transparent;
+        border-left-color:transparent;
+        border-top-color:transparent;
+        border-bottom-color: aqua;
+        box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.125);
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+    }
+    
+    .value{
+        margin-left: 20px;
+        margin-top: 15px;
+        color: grey;
+    }
+
+    .itemsleft{
+        margin-left: 5px;
+        margin-top: 15px;
+        color: grey;
+    }
+
+    .ALLelem{
+        margin-left: 20px;
+        margin-top: 13px;
+        padding: 0px;
+        color: grey;
+    }
+
+    .Actelem{
+        margin-left: 5px;
+        margin-top: 13px;
+        padding: 0px;
+        color: grey;
+    }
+
+    .Comelem{
+        margin-left: 5px;
+        margin-top: 13px;
+        padding: 0px;
+        color: grey;
+    }
+
+    .Clearelem{
+        margin-left: 20px;
+        margin-top: 13px;
+        padding: 0px;
+        color: grey;
+    }
+
+    .para{
+        max-width:390px;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+    .container{
+        background-image: url("bg-desktop-dark.jpg");
+        background-repeat: no-repeat;
+        background-size: 100vw 40vh;
+        max-width: 100%;
+        margin: 0px;
+        padding-top: 0px;
+    }
+    
+    .C1{
+        
+        background-color: rgba(49, 60, 71, 0);
+        width: 500px;
+        height: 600px;
+        padding-top: 50px;
+        letter-spacing: 10px;
+        padding-left: 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        margin-left: 120px;
+        animation-name: containerelem;
+        animation-duration: 2s;
+    }
+
+    @keyframes containerelem {
+        from{
+            transform: translateX(-400px);
+            opacity: 0;
+        }
+
+        to{
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+
+    img{
+        margin-top: 7px;
+        margin-left: 360px;
+       
+    }
+    
+    .C2{
+        background-color: rgb(54, 54, 54);
+        border-style: none;
+        border-radius: 5px;
+        border-color: transparent;
+        box-shadow: 1px 1px 20px 1px black;
+        margin-bottom: 70px;
+       
+    }
+
+    .C2 button{
+        width : 25px;
+        height: 25px;
+        background-color: rgb(54, 54, 54, 0);
+        border-style: groove;
+        border-radius: 25px;
+        border-color: rgb(70, 70, 70);
+        margin-top: 13px;
+        margin-left: 15px;
+        outline: none;
+    }
+    
+    .btn:hover{
+        background-color: transparent;
+    }
+    
+    .inputtag1{
+        background-color: rgba(255, 255, 255, 0);
+        border-style: none;
+        border-radius: 5px;
+        border-color: transparent;
+        font-size: 20px;
+        width: 500px;
+        height: 50px;
+        margin-left: 15px;
+        outline: none;
+        color: rgb(107, 107, 107);
+    }
+    
+    .Total{
+        background-color: rgb(54, 54, 54);
+        width: 490px;
+        height: 50px;
+        border-style: none;
+        border-radius: 5px;
+        border-color: rgba(173, 216, 230, 0);
+        font-size: 15px;
+        letter-spacing: 0px;
+        font-weight: 100px;
+        box-shadow: 1px 1px 25px 1px black;
+       
+    }
+    
+
+    .tasks{
+        background-color: rgb(54, 54, 54);
+        width: 490px;
+        height: 50px;
+        border-style:groove;
+        border-radius: 5px;
+        border-right-color:transparent;
+        border-left-color:transparent;
+        border-top-color:transparent;
+        border-bottom-color: aqua;
+        box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.125);
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+    }
+    
+    .value{
+        margin-left: 20px;
+        margin-top: 15px;
+        color: grey;
+    }
+
+    .itemsleft{
+        margin-left: 5px;
+        margin-top: 15px;
+        color: grey;
+    }
+    .ALLelem{
+        margin-left: 20px;
+        margin-top: 13px;
+        padding: 0px;
+        color: grey;
+    }
+
+    .Actelem{
+        margin-left: 5px;
+        margin-top: 13px;
+        padding: 0px;
+        color: grey;
+    }
+
+    .Comelem{
+        margin-left: 5px;
+        margin-top: 13px;
+        padding: 0px;
+        color: grey;
+    }
+
+    .Clearelem{
+        margin-left: 20px;
+        margin-top: 13px;
+        padding: 0px;
+        color: grey;
+    }
+
+    .para{
+        max-width:390px;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width:425px) and (max-width:767px){
+    .container{
+        background-image: url("bg-desktop-dark.jpg");
+        background-repeat: no-repeat;
+        background-size: 100vw 30vh;
+        max-width: 100%;
+        margin: 0px;
+        padding-top: 0px;
+    }
+    
+    .C1{
+        
+        background-color: rgba(98, 124, 150, 0);
+        width: 400px;
+        height: 400px;
+        padding-top: 50px;
+        letter-spacing: 10px;
+        padding-left: 0px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        margin-left: 0px;
+        animation-name: containerelem;
+        animation-duration: 2s;
+    }
+
+    @keyframes containerelem {
+        from{
+            transform: translateX(-400px);
+            opacity: 0;
+        }
+
+        to{
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+
+    .TODOIMG{
+        margin-bottom:  40px;
+    }
+
+    img{
+        margin-top: 7px;
+        margin-left: 260px;
+       
+    }
+
+    .C2{
+        background-color: rgb(54, 54, 54);
+        border-style: none;
+        border-radius: 5px;
+        border-color: rgba(0, 0, 0, 0);
+        box-shadow: 1px 1px 20px 1px black;
+        margin-bottom: 100px;
+        
+    }
+
+  
+
+    .C2 button{
+        width : 25px;
+        height: 25px;
+        background-color: rgb(54, 54, 54, 0);
+        border-style: groove;
+        border-radius: 25px;
+        border-color: rgb(70, 70, 70);
+        margin-top: 13px;
+        margin-left: 8px;
+        outline: none;
+    }
+    
+    .btn:hover{
+        background-color: transparent;
+    }
+    
+    .inputtag1{
+        background-color: rgba(255, 255, 255, 0);
+        border-style: none;
+        border-radius: 5px;
+        border-color: transparent;
+        font-size: 15px;
+        width: 390px;
+        height: 50px;
+        margin-left: 5px;
+        outline: none;
+        color: rgb(107, 107, 107);
+    }
+    
+    .Total{
+        background-color: rgb(54, 54, 54);
+        width: 400px;
+        height: 50px;
+        border-style: none;
+        border-radius: 5px;
+        border-color: rgba(173, 216, 230, 0);
+        font-size: 15px;
+        letter-spacing: 0px;
+        font-weight: 100px;
+        box-shadow: 1px 1px 25px 1px black;
+        
+    }
+ 
+
+    .tasks{
+        background-color: rgb(54, 54, 54);
+        box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.125);
+        width: 400px;
+        height: 50px;
+        border-style:groove;
+        border-radius: 5px;
+        border-right-color:transparent;
+        border-left-color:transparent;
+        border-top-color:transparent;
+        border-bottom-color: aqua;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+    }
+    
+    .value{
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: x-small;
+        color: grey;
+    }
+
+    .itemsleft{
+        margin-left: 5px;
+        margin-top: 20px;
+        font-size: x-small;
+        color: grey;
+    }
+    .ALLelem{
+        margin-left: 30px;
+        margin-top: 19px;
+        padding: 0px;
+        font-size: x-small;
+        color: grey;
+    }
+
+    .Actelem{
+        margin-left: 15px;
+        margin-top: 19px;
+        padding: 0px;
+        font-size: x-small;
+        color: grey;
+    }
+
+    .Comelem{
+        margin-left: 15px;
+        margin-top: 19px;
+        padding: 0px;
+        font-size: x-small;
+        color: grey;
+    }
+
+    .Clearelem{
+        margin-left: 30px;
+        margin-top: 19px;
+        padding: 0px;
+        font-size: x-small;
+        color: grey;
+    }
+
+    .para{
+        max-width:390px;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width:375px) and (max-width:424px){
+    .container{
+        background-image: url("bg-desktop-dark.jpg");
+        background-repeat: no-repeat;
+        background-size: 100vw 30vh;
+        max-width: 100%;
+        margin: 0px;
+        padding-top: 0px;
+    }
+    
+    .C1{
+        
+        background-color: rgba(98, 124, 150, 0);
+        width: 345px;
+        height: 300px;
+        padding-top: 50px;
+        letter-spacing: 10px;
+        padding-left: 0px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        margin-left: 0px;
+        animation-name: containerelem;
+        animation-duration: 2s;
+    }
+
+    @keyframes containerelem {
+        from{
+            transform: translateX(-400px);
+            opacity: 0;
+        }
+
+        to{
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+
+    .TODOIMG{
+        margin-bottom:  40px;
+    }
+
+    img{
+        margin-top: 7px;
+        margin-left: 205px;
+        
+    }
+  
+    .C2{
+        background-color: rgb(54, 54, 54);
+        border-style: none;
+        border-radius: 5px;
+        border-color: rgba(0, 0, 0, 0);
+        box-shadow: 1px 1px 20px 1px black;
+        margin-bottom: 100px;
+    
+    }
+
+  
+
+    .C2 button{
+        width : 25px;
+        height: 25px;
+        background-color: rgb(54, 54, 54, 0);
+        border-style: groove;
+        border-radius: 25px;
+        border-color: rgb(70, 70, 70);
+        margin-top: 13px;
+        margin-left: 8px;
+        outline: none;
+    }
+    
+    .btn:hover{
+        background-color: transparent;
+    }
+    
+    .inputtag1{
+        background-color: rgba(255, 255, 255, 0);
+        border-style: none;
+        border-radius: 5px;
+        border-color: transparent;
+        font-size: 15px;
+        width: 390px;
+        height: 50px;
+        margin-left: 5px;
+        outline: none;
+        color: rgb(107, 107, 107);
+    }
+    
+    .Total{
+        background-color: rgb(54, 54, 54);
+        width: 345px;
+        height: 50px;
+        border-style: none;
+        border-radius: 5px;
+        border-color: rgba(173, 216, 230, 0);
+        font-size: 15px;
+        letter-spacing: 0px;
+        font-weight: 100px;
+        box-shadow: 1px 1px 25px 1px black;
+      
+    }
+    
+    .tasks{
+        background-color: rgb(54, 54, 54);
+        box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.125);
+        width: 345px;
+        height: 50px;
+        border-style:groove;
+        border-radius: 5px;
+        border-right-color:transparent;
+        border-left-color:transparent;
+        border-top-color:transparent;
+        border-bottom-color: aqua;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+    }
+    
+    .value{
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: x-small;
+        color: grey;
+    }
+
+    .itemsleft{
+        margin-left: 5px;
+        margin-top: 20px;
+        font-size: x-small;
+        color: grey;
+    }
+    .ALLelem{
+        margin-left: 25px;
+        margin-top: 19px;
+        padding: 0px;
+        font-size: x-small;
+        color: grey;
+    }
+
+    .Actelem{
+        margin-left: 10px;
+        margin-top: 19px;
+        padding: 0px;
+        font-size: x-small;
+        color: grey;
+    }
+
+    .Comelem{
+        margin-left: 10px;
+        margin-top: 19px;
+        padding: 0px;
+        font-size: x-small;
+        color: grey;
+    }
+
+    .Clearelem{
+        margin-left: 25px;
+        margin-top: 19px;
+        padding: 0px;
+        font-size: x-small;
+        color: grey;
+    }
+
+    .para{
+        max-width:390px;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:374px){
+    .container{
+        background-image: url("bg-desktop-dark.jpg");
+        background-repeat: no-repeat;
+        background-size: 100vw 30vh;
+        max-width: 100%;
+        margin: 0px;
+        padding-top: 0px;
+    }
+    
+    .C1{
+        
+        background-color: rgba(98, 124, 150, 0);
+        width: 290px;
+        height: 300px;
+        padding-top: 20px;
+        letter-spacing: 10px;
+        padding-left: 0px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        margin-left: 0px;
+        animation-name: containerelem;
+        animation-duration: 2s;
+    }
+
+    @keyframes containerelem {
+        from{
+            transform: translateX(-400px);
+            opacity: 0;
+        }
+
+        to{
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+    
+    .TODOIMG{
+        margin-bottom:  20px;
+    }
+
+    img{
+        margin-top: 13px;
+        margin-left: 130px;
+    
+    }
+
+    .C2{
+        background-color: rgb(54, 54, 54);
+        border-style: none;
+        border-radius: 5px;
+        border-color: rgba(0, 0, 0, 0);
+        box-shadow: 1px 1px 20px 1px black;
+        margin-bottom: 20px;
+       
+    }
+
+
+    .C2 button{
+        width : 25px;
+        height: 25px;
+        background-color: rgb(54, 54, 54, 0);
+        border-style: groove;
+        border-radius: 25px;
+        border-color: rgb(70, 70, 70);
+        margin-top: 13px;
+        margin-left: 8px;
+        outline: none;
+    }
+    
+    .btn:hover{
+        background-color: transparent;
+    }
+    
+    .inputtag1{
+        background-color: rgba(255, 255, 255, 0);
+        border-style: none;
+        border-radius: 5px;
+        border-color: transparent;
+        font-size: 10px;
+        width: 390px;
+        height: 50px;
+        margin-left: 5px;
+        outline: none;
+        color: rgb(107, 107, 107);
+    }
+    
+    .Total{
+        background-color: rgb(54, 54, 54);
+        width: 290px;
+        height: 50px;
+        border-style: none;
+        border-radius: 5px;
+        border-color: rgba(173, 216, 230, 0);
+        font-size: 15px;
+        letter-spacing: 0px;
+        font-weight: 100px;
+        box-shadow: 1px 1px 25px 1px black;
+    }
+    
+    .tasks{
+        background-color: rgb(54, 54, 54);
+        box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.125);
+        width: 290px;
+        height: 50px;
+        border-style:groove;
+        border-radius: 5px;
+        border-right-color:transparent;
+        border-left-color:transparent;
+        border-top-color:transparent;
+        border-bottom-color: aqua;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+    }
+    
+    .value{
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: xx-small;
+        color: grey;
+    }
+
+    .itemsleft{
+        margin-left: 5px;
+        margin-top: 20px;
+        font-size: xx-small;
+        color: grey;
+    }
+    .ALLelem{
+        margin-left: 15px;
+        margin-top: 19px;
+        padding: 0px;
+        font-size: xx-small;
+        color: grey;
+    }
+
+    .Actelem{
+        margin-left: 5px;
+        margin-top: 19px;
+        padding: 0px;
+        font-size: xx-small;
+        color: grey;
+    }
+
+    .Comelem{
+        margin-left: 5px;
+        margin-top: 19px;
+        padding: 0px;
+        font-size: xx-small;
+        color: grey;
+    }
+
+    .Clearelem{
+        margin-left: 15px;
+        margin-top: 19px;
+        padding: 0px;
+        font-size: xx-small;
+        color: grey;
+    }
+
+    .para{
+        max-width:390px;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}

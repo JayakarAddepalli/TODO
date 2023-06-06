@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="TODO.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+    <div class="container">
+        <div class="C1">
+            <div class="TODOIMG d-flex flex-row">
+                <p class="Todo">TODO</p>
+                <img src="icon-sun.svg" width="20px" height="20px" id="sun">
+            </div>
+            <div class="C2 d-flex flex-row">
+                <button class="btn btn-primary" onclick="add()"></button>
+                <input class="inputtag1" type="text" id="textcontent" maxlength="30" placeholder="Create a new todo">
+            </div>
+
+            <div class="d-flex flex-column">
+                <div id="tasks" class=" d-flex flex-column">
+                    
+                </div>
+            </div>
+            
+
+            <div class="Total d-flex flex-row">
+                <p  class="value" id="changevalue">0</p>
+                <p  class="itemsleft">items left</p>
+                <p class=" btn ALLelem" id="All">All </p>
+                <p class=" btn Actelem" id="Active" >Active </p>
+                <p class=" btn Comelem" id="Completed">Completed</p>
+                <p class=" btn Clearelem" id="ClearCompleted">Clear Completed</p>
+            </div>
+
+            
+        </div>
+        
+        
+    </div>
+    
+
+
+
+    <script src="TODO.js"></script>
+</body>
+</html>
