@@ -139,7 +139,7 @@ function add(){
     let x = window.matchMedia("(min-width:1440px) and (max-width:1920px)");
     let y = window.matchMedia("(min-width:1024px)");
     let z = window.matchMedia("(min-width:768px)");
-    let z1 = window.matchMedia("(width:720px) and (height:1520px)");
+    let z1 = window.matchMedia("(min-width:720px) and (max-width:1520px)");
     let w = window.matchMedia("(min-width:425px)");
     let p = window.matchMedia("(min-width:375px)");
     let q = window.matchMedia("(min-width:320px)");
@@ -175,8 +175,8 @@ function add(){
         matter.style.marginTop = "6px";
     }
     else if (z1.matches){
-        buton.style.left = "50%";
-        buton.style.transform = "translateX(-50%)";
+        buton.style.left = "45%";
+        buton.style.transform = "translateX(-45%)";
         buton.style.transform = "translateY(-5%)";
 
         matter.style.fontSize = "20px";
