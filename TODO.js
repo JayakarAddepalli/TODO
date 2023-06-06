@@ -139,6 +139,7 @@ function add(){
     let x = window.matchMedia("(min-width:1440px) and (max-width:1920px)");
     let y = window.matchMedia("(min-width:1024px)");
     let z = window.matchMedia("(min-width:768px)");
+    let z1 = window.matchMedia("(min-width:720px)");
     let w = window.matchMedia("(min-width:425px)");
     let p = window.matchMedia("(min-width:375px)");
     let q = window.matchMedia("(min-width:320px)");
@@ -168,6 +169,14 @@ function add(){
     else if (z.matches){
         buton.style.left = "78%";
         buton.style.transform = "translateX(-78%)";
+        buton.style.transform = "translateY(-5%)";
+
+        matter.style.fontSize = "20px";
+        matter.style.marginTop = "6px";
+    }
+    else if (z1.matches){
+        buton.style.left = "75%";
+        buton.style.transform = "translateX(-75%)";
         buton.style.transform = "translateY(-5%)";
 
         matter.style.fontSize = "20px";
