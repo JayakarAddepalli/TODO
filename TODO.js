@@ -139,7 +139,7 @@ function add(){
     let x = window.matchMedia("(min-width:1440px) and (max-width:1920px)");
     let y = window.matchMedia("(min-width:1024px)");
     let z = window.matchMedia("(min-width:768px)");
-    let z1 = window.matchMedia("(min-width:720px) and (max-width:1520px)");
+    let z1 = window.matchMedia("(max-width:720px) and (max-height:1520px)");
     let w = window.matchMedia("(min-width:425px)");
     let p = window.matchMedia("(min-width:375px)");
     let q = window.matchMedia("(min-width:320px)");
