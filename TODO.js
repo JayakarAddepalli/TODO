@@ -175,12 +175,12 @@ function add(){
         matter.style.marginTop = "6px";
     }
     else if (z1.matches){
-        buton.style.left = "45%";
-        buton.style.transform = "translateX(-45%)";
+        buton.style.left = "60%";
+        buton.style.transform = "translateX(-60%)";
         buton.style.transform = "translateY(-5%)";
 
-        matter.style.fontSize = "20px";
-        matter.style.marginTop = "6px";
+        matter.style.fontSize = "14px";
+        matter.style.marginTop = "11px";
     }
     else if (w.matches){
         buton.style.left = "89%";
