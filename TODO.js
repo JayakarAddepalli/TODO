@@ -175,8 +175,8 @@ function add(){
         matter.style.marginTop = "6px";
     }
     else if (z1.matches){
-        buton.style.left = "78%";
-        buton.style.transform = "translateX(-78%)";
+        buton.style.left = "76%";
+        buton.style.transform = "translateX(-76%)";
         buton.style.transform = "translateY(-5%)";
 
         matter.style.fontSize = "14px";
