@@ -411,8 +411,9 @@ function add(){
         
         checkboxes.forEach(function(checkbox){
             let parent = checkbox.parentNode;
-
+            
             if(checkbox.checked){
+                parent.remove();
                 container1.remove();
             }
             else{
