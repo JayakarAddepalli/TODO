@@ -138,6 +138,7 @@ function add(){
 
     let x = window.matchMedia("(min-width:1440px) and (max-width:1920px)");
     let y = window.matchMedia("(min-width:1024px)");
+    let y1 = window.matchMedia("(min-width:1080px) and (max-height:2400px)");
     let z = window.matchMedia("(min-width:768px)");
     let z1 = window.matchMedia("(max-width:720px) and (max-height:1520px)");
     let w = window.matchMedia("(min-width:425px)");
@@ -166,6 +167,16 @@ function add(){
         matter.style.fontSize = "20px";
         matter.style.marginTop = "6px";
     }
+    
+    else if (y1.matches){
+        buton.style.left = "70%";
+        buton.style.transform = "translateX(-70%)";
+        buton.style.transform = "translateY(-5%)";
+
+        matter.style.fontSize = "20px";
+        matter.style.marginTop = "6px";
+    }
+    
     else if (z.matches){
         buton.style.left = "78%";
         buton.style.transform = "translateX(-78%)";
