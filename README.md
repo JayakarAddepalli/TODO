@@ -1,7 +1,7 @@
 # TODO
 
 
-Created by using HTML5, CSS3, JavaScript, Bootstrap. It is fully responsive website.
+Created by using HTML5, CSS3, JavaScript, Bootstrap. It is fully responsive in all the devices.
 
 
 ![TODO](https://github.com/Jayakarjjjjjjjjjj/TODO/assets/110006483/21429194-fb11-400e-a77d-189b85dfae05)
