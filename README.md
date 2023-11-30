@@ -21,7 +21,6 @@ Created by using HTML5, CSS3, JavaScript, Bootstrap. It is fully responsive webs
   <li>Clear all completed todos</li>
   <li>Toggle light and dark mode</li>
   <li>View the optimal layout for the app depending on their device's screen size</li>
-  <li></li>
 </ul>
 
 
